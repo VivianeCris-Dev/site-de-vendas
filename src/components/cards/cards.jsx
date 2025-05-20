@@ -1,4 +1,4 @@
-import cardPhones from "../../card.js";
+import cardPhones from "../../../card.js";
 
 function Cards({ searchTerm, handleAddToCart, car, openModal }) {
   const filteredCards = cardPhones.filter((card) =>

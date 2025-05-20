@@ -1,4 +1,4 @@
-import cardPhones from "../../card.js";
+import cardPhones from "../../../card.js";
 import x from "../../assets/x.svg";
 
 function Modal({ show, onClose, selectedCardId }) {
