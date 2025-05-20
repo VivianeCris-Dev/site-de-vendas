@@ -1,7 +1,7 @@
 const cardPhones = [
   {
     id: 1,
-    img: "./public/cel.png",
+    img: "public/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
