@@ -1,7 +1,7 @@
 const cardPhones = [
   {
     id: 1,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -10,7 +10,7 @@ const cardPhones = [
   },
   {
     id: 2,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung A56",
     description: "Galaxy A56 - 128GB",
     details:
@@ -19,7 +19,7 @@ const cardPhones = [
   },
   {
     id: 3,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "iPhone 14 Pro Max",
     description: "14 Pro Max - 512gB",
     details:
@@ -28,7 +28,7 @@ const cardPhones = [
   },
   {
     id: 4,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "iPhone 11",
     description: "iPhone 11 - 128GB",
     details:
@@ -37,7 +37,7 @@ const cardPhones = [
   },
   {
     id: 5,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Xiaomi 15 Ultra",
     description: "Xiaomi 15 Ul - 512GB",
     details:
@@ -46,7 +46,7 @@ const cardPhones = [
   },
   {
     id: 6,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Xiaomi MIX Flip",
     description: "MIX Flip - 128GB",
     details:
@@ -55,7 +55,7 @@ const cardPhones = [
   },
   {
     id: 7,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S22+",
     description: "Galaxy S22+ - 128GB",
     details:
@@ -64,7 +64,7 @@ const cardPhones = [
   },
   {
     id: 8,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "iPhone 13",
     description: "iPhone 13 - 128GB",
     details:
@@ -73,7 +73,7 @@ const cardPhones = [
   },
   {
     id: 9,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -82,7 +82,7 @@ const cardPhones = [
   },
   {
     id: 10,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -91,7 +91,7 @@ const cardPhones = [
   },
   {
     id: 11,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -100,7 +100,7 @@ const cardPhones = [
   },
   {
     id: 12,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -109,7 +109,7 @@ const cardPhones = [
   },
   {
     id: 13,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -118,7 +118,7 @@ const cardPhones = [
   },
   {
     id: 14,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -127,7 +127,7 @@ const cardPhones = [
   },
   {
     id: 15,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -136,7 +136,7 @@ const cardPhones = [
   },
   {
     id: 16,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -145,7 +145,7 @@ const cardPhones = [
   },
   {
     id: 17,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -154,7 +154,7 @@ const cardPhones = [
   },
   {
     id: 18,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -163,7 +163,7 @@ const cardPhones = [
   },
   {
     id: 19,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
@@ -172,7 +172,7 @@ const cardPhones = [
   },
   {
     id: 20,
-    img: "./src/assets/cel.png",
+    img: "src/assets/cel.png",
     name: "Samsung S25",
     description: "Galaxy S25 - 512GB",
     details:
