@@ -1,0 +1,55 @@
+import Header from "../../components/header/header";
+import Footer from "../../components/footer/footer";
+
+function Car({ car, setCar }) {
+  const handleRemoveCart = (id) => {
+    setCar(car.filter((item) => item.id !== id));
+  };
+
+  return (
+    <di className="flex flex-col min-h-screen">
+      <Header tem={car.length > 0} />
+      <div className="flex flex-col items-center justify-center  mt-10 mb-10 w-full h-full flex-1">
+        {car.length === 0 ? (
+          <span className="text-gray-500 h-full">
+            Não existe produto no seu carrinho.
+          </span>
+        ) : (
+          <div className="flex items-center justify-center flex-wrap gap-10 w-5/6 text-white h-full max-[817px]:text-xl">
+            {car.map((item, index) => (
+              <div
+                className="flex flex-col w-50 h-80 items-center border rounded-md hover:scale-101 max-[817px]:w-55 max-[817px]:h-85"
+                key={index}
+              >
+                <img
+                  className="w-full rounded-t-sm h-40"
+                  src={item.img}
+                  alt={`imagem de ${item.name}`}
+                />
+                <div className="flex flex-col p-4">
+                  <h1 className="mb-1">{item.name}</h1>
+                  <span className="mb-2 text-gray-400">{item.description}</span>
+                  <strong className="mb-3 text-green-300">
+                    {item.price.toFixed(2)}
+                  </strong>
+                  <div className="flex gap-3">
+                    <button
+                      className="cursor-pointer p-1 border rounded-sm hover:bg-gray-800 max-[817px]:text-lg"
+                      onClick={() => handleRemoveCart(item.id)}
+                    >
+                      Remover Do Carrinho
+                    </button>
+                  </div>
+                </div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+
+      <Footer />
+    </di>
+  );
+}
+
+export default Car;
