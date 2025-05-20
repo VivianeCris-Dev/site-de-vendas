@@ -39,7 +39,7 @@ const cardPhones = [
     id: 5,
     img: "/cel.png",
     name: "Xiaomi 15 Ultra",
-    description: "Xiaomi 15 Ul - 512GB",
+    description: "Xiaomi 15 - 512GB",
     details:
       "Conheça o Xiaomi 15 Ultra. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 760,

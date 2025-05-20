@@ -34,7 +34,7 @@ function Car({ car, setCar }) {
                   </strong>
                   <div className="flex gap-3">
                     <button
-                      className="cursor-pointer p-1 border rounded-sm hover:bg-gray-800 max-[817px]:text-lg"
+                      className="cursor-pointer p-1 border rounded-sm hover:bg-gray-800 max-[817px]:text-lg max-[400px]:text-base"
                       onClick={() => handleRemoveCart(item.id)}
                     >
                       Remover Do Carrinho
