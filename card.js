@@ -21,7 +21,7 @@ const cardPhones = [
     id: 3,
     img: "/cel.png",
     name: "iPhone 14 Pro Max",
-    description: "14 Pro Max - 512gB",
+    description: "14 Pro Max - 512GB",
     details:
       "Conheça o iPhone 14 Pro Max. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 890,

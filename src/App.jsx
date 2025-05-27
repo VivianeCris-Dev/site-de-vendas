@@ -4,10 +4,15 @@ import Car from "./pages/car/car.jsx";
 import { useState, useEffect } from "react";
 
 function App() {
-  const [car, setCar] = useState([]);
-  const [tem, setTem] = useState(false);
+  const [car, setCar] = useState(() => {
+    const savedCart = localStorage.getItem("cart");
+    return savedCart ? JSON.parse(savedCart) : [];
+  });
+
+  const [tem, setTem] = useState(car.length > 0);
 
   useEffect(() => {
+    localStorage.setItem("cart", JSON.stringify(car));
     setTem(car.length > 0);
   }, [car]);
 
