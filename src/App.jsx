@@ -8,7 +8,6 @@ function App() {
     const savedCart = localStorage.getItem("cart");
     return savedCart ? JSON.parse(savedCart) : [];
   });
-
   const [tem, setTem] = useState(car.length > 0);
 
   useEffect(() => {

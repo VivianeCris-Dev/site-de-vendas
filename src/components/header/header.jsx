@@ -1,9 +1,9 @@
-import car from "../../assets/car.svg";
+import carr from "../../assets/carr.svg";
 import carGray from "../../assets/cargray.svg";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-function Header({ tem }) {
+function Header({ tem, car }) {
   const location = useLocation();
   const [wasClicked, setWasClicked] = useState(location.pathname);
 
@@ -30,7 +30,11 @@ function Header({ tem }) {
 
       <nav>
         <Link to="/car" className="flex gap-2" href="#">
-          {tem && <div className="w-1 h-1 bg-red-500 rounded-full"></div>}
+          {tem && (
+            <div className="flex justify-center items-center w-4 h-4 bg-red-500 text-xs rounded-full">
+              {car.length}
+            </div>
+          )}
           <span
             onClick={() => setWasClicked("/car")}
             className={wasClicked === "/car" ? "text-gray-500" : "text-white"}
@@ -40,7 +44,7 @@ function Header({ tem }) {
           <img
             onClick={() => setWasClicked("/car")}
             className="w-5"
-            src={wasClicked === "/car" ? carGray : car}
+            src={wasClicked === "/car" ? carGray : carr}
             alt="carrinho"
           />
         </Link>

@@ -45,7 +45,7 @@ function Home({ car, setCar, tem }) {
         onClose={closeModal}
         selectedCardId={selectedCardId}
       />
-      <Header tem={tem} />
+      <Header tem={tem} car={car} />
       <section className="flex flex-col flex-wrap items-center mt-9 w-full h-full text-white">
         <Inputs searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <Cards
