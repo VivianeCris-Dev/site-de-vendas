@@ -43,7 +43,6 @@ function CardsCar({ car, setCar, handleRemoveCart }) {
         <div className="flex items-center justify-center gap-10 mb-10">
           <h2 className="text-xl font-semibold">Total do Carrinho:</h2>
           <p className="text-green-300 text-2xl mt-2">
-            R${" "}
             {total.toLocaleString("pt-BR", {
               style: "currency",
               currency: "BRL",
