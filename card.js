@@ -6,7 +6,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9500,
   },
   {
     id: 2,
@@ -15,7 +15,7 @@ const cardPhones = [
     description: "Galaxy A56 - 128GB",
     details:
       "Conheça o Galaxy A56. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 330,
+    price: 3300.2,
   },
   {
     id: 3,
@@ -24,7 +24,7 @@ const cardPhones = [
     description: "14 Pro Max - 512GB",
     details:
       "Conheça o iPhone 14 Pro Max. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 890,
+    price: 8900,
   },
   {
     id: 4,
@@ -33,7 +33,7 @@ const cardPhones = [
     description: "iPhone 11 - 128GB",
     details:
       "Conheça o iPhone 11. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 420,
+    price: 4200,
   },
   {
     id: 5,
@@ -42,7 +42,7 @@ const cardPhones = [
     description: "Xiaomi 15 - 512GB",
     details:
       "Conheça o Xiaomi 15 Ultra. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 760,
+    price: 7600,
   },
   {
     id: 6,
@@ -51,7 +51,7 @@ const cardPhones = [
     description: "MIX Flip - 128GB",
     details:
       "Conheça o Xiaomi MIX Flip. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 500,
+    price: 500.5,
   },
   {
     id: 7,
@@ -60,7 +60,7 @@ const cardPhones = [
     description: "Galaxy S22+ - 128GB",
     details:
       "Conheça o Galaxy S22+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 250,
+    price: 250.99,
   },
   {
     id: 8,
@@ -69,7 +69,7 @@ const cardPhones = [
     description: "iPhone 13 - 128GB",
     details:
       "Conheça o iPhone 13. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 310,
+    price: 310.99,
   },
   {
     id: 9,
@@ -78,7 +78,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 1950,
   },
   {
     id: 10,
@@ -87,7 +87,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 1950,
   },
   {
     id: 11,
@@ -96,7 +96,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 1950,
   },
   {
     id: 12,
@@ -105,7 +105,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9500,
   },
   {
     id: 13,
@@ -114,7 +114,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9500,
   },
   {
     id: 14,
@@ -123,7 +123,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9560,
   },
   {
     id: 15,
@@ -132,7 +132,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9510,
   },
   {
     id: 16,
@@ -141,7 +141,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9510,
   },
   {
     id: 17,
@@ -150,7 +150,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9950,
   },
   {
     id: 18,
@@ -159,7 +159,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9150,
   },
   {
     id: 19,
@@ -168,7 +168,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9510,
   },
   {
     id: 20,
@@ -177,7 +177,7 @@ const cardPhones = [
     description: "Galaxy S25 - 512GB",
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
-    price: 950,
+    price: 9150,
   },
 ];
 

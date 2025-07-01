@@ -30,7 +30,10 @@ function Cards({ searchTerm, handleAddToCart, car, openModal }) {
               <h1 className="mb-1">{card.name}</h1>
               <span className="mb-2 text-gray-400">{card.description}</span>
               <strong className="mb-3 text-green-300">
-                {card.price.toFixed(2)}
+                {card.price.toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                })}
               </strong>
               <div className="flex gap-3">
                 <button

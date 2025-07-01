@@ -21,7 +21,10 @@ function CardsCar({ car, setCar, handleRemoveCart }) {
               <h1 className="mb-1">{item.name}</h1>
               <span className="mb-2 text-gray-400">{item.description}</span>
               <strong className="mb-3 text-green-300">
-                R${item.price.toFixed(2)}
+                {item.price.toLocaleString("pt-BR", {
+                  style: "currency",
+                  currency: "BRL",
+                })}
               </strong>
               <div className="flex gap-3">
                 <button
@@ -39,7 +42,13 @@ function CardsCar({ car, setCar, handleRemoveCart }) {
       <div className=" flex flex-col items-center justify-center mt-6 p-4 bg-gray-900 rounded-md shadow-md">
         <div className="flex items-center justify-center gap-10 mb-10">
           <h2 className="text-xl font-semibold">Total do Carrinho:</h2>
-          <p className="text-green-300 text-2xl mt-2">R$ {total.toFixed(2)}</p>
+          <p className="text-green-300 text-2xl mt-2">
+            R${" "}
+            {total.toLocaleString("pt-BR", {
+              style: "currency",
+              currency: "BRL",
+            })}
+          </p>
         </div>
         <button
           className="cursor-pointer p-5 border border-yellow-100 text-yellow-100 rounded-sm hover:bg-gray-800 max-[817px]:text-lg max-[400px]:text-base"
