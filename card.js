@@ -7,6 +7,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9500,
+    quantity: 1,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy A56. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 3300.2,
+    quantity: 1,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ const cardPhones = [
     details:
       "Conheça o iPhone 14 Pro Max. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 8900,
+    quantity: 1,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ const cardPhones = [
     details:
       "Conheça o iPhone 11. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 4200,
+    quantity: 1,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ const cardPhones = [
     details:
       "Conheça o Xiaomi 15 Ultra. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 7600,
+    quantity: 1,
   },
   {
     id: 6,
@@ -52,6 +57,7 @@ const cardPhones = [
     details:
       "Conheça o Xiaomi MIX Flip. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 500.5,
+    quantity: 1,
   },
   {
     id: 7,
@@ -61,6 +67,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S22+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 250.99,
+    quantity: 1,
   },
   {
     id: 8,
@@ -70,6 +77,7 @@ const cardPhones = [
     details:
       "Conheça o iPhone 13. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 310.99,
+    quantity: 1,
   },
   {
     id: 9,
@@ -79,6 +87,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 1950,
+    quantity: 1,
   },
   {
     id: 10,
@@ -88,6 +97,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 1950,
+    quantity: 1,
   },
   {
     id: 11,
@@ -97,6 +107,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 1950,
+    quantity: 1,
   },
   {
     id: 12,
@@ -106,6 +117,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9500,
+    quantity: 1,
   },
   {
     id: 13,
@@ -115,6 +127,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9500,
+    quantity: 1,
   },
   {
     id: 14,
@@ -124,6 +137,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9560,
+    quantity: 1,
   },
   {
     id: 15,
@@ -133,6 +147,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9510,
+    quantity: 1,
   },
   {
     id: 16,
@@ -142,6 +157,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9510,
+    quantity: 1,
   },
   {
     id: 17,
@@ -151,6 +167,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9950,
+    quantity: 1,
   },
   {
     id: 18,
@@ -160,6 +177,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9150,
+    quantity: 1,
   },
   {
     id: 19,
@@ -169,6 +187,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9510,
+    quantity: 1,
   },
   {
     id: 20,
@@ -178,6 +197,7 @@ const cardPhones = [
     details:
       "Conheça o Galaxy S25 e o S25+. Um design elegante e premium em uma estrutura de alumínio forte com uma tela imersiva.",
     price: 9150,
+    quantity: 1,
   },
 ];
 

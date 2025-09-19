@@ -34,7 +34,10 @@ function Modal({ show, onClose, selectedCardId }) {
             <strong className=" text-gray-500">{card.description}</strong>
             <p className="mt-4 text-gray-500">{card.details}</p>
             <strong className="text-green-300 mt-2">
-              {card.price.toFixed(2)}
+              {card.price.toLocaleString("pt-BR", {
+                style: "currency",
+                currency: "BRL",
+              })}
             </strong>
             <button
               onClick={onClose}

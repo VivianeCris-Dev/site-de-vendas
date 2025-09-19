@@ -3,7 +3,7 @@ import carGray from "../../assets/cargray.svg";
 import { Link, useLocation } from "react-router-dom";
 import { useState, useEffect } from "react";
 
-function Header({ tem, car }) {
+function Header({ tem, totalItems }) {
   const location = useLocation();
   const [wasClicked, setWasClicked] = useState(location.pathname);
 
@@ -32,7 +32,7 @@ function Header({ tem, car }) {
         <Link to="/car" className="flex gap-2" href="#">
           {tem && (
             <div className="flex justify-center items-center w-4 h-4 bg-red-500 text-xs rounded-full">
-              {car.length}
+              {totalItems}
             </div>
           )}
           <span

@@ -1,13 +1,9 @@
 import cardPhones from "../../../card.js";
 
-function Cards({ searchTerm, handleAddToCart, car, openModal }) {
+function Cards({ searchTerm, handleAddToCart, openModal }) {
   const filteredCards = cardPhones.filter((card) =>
     card.name.toLowerCase().includes(searchTerm.toLowerCase())
   );
-
-  const isInCart = (cardId) => {
-    return car.some((item) => item.id === cardId);
-  };
 
   const handleToAdd = (card) => {
     handleAddToCart(card);
@@ -43,21 +39,12 @@ function Cards({ searchTerm, handleAddToCart, car, openModal }) {
                   Ver mais
                 </button>
 
-                {!isInCart(card.id) ? (
-                  <button
-                    className="cursor-pointer p-1 border rounded-sm hover:bg-gray-800"
-                    onClick={() => handleToAdd(card)}
-                  >
-                    Carrinho
-                  </button>
-                ) : (
-                  <button
-                    className="cursor-pointer p-1 border rounded-sm bg-gray-500 text-white"
-                    disabled
-                  >
-                    Pronto
-                  </button>
-                )}
+                <button
+                  className="cursor-pointer p-1 border rounded-sm hover:bg-gray-800"
+                  onClick={() => handleToAdd(card)}
+                >
+                  Carrinho
+                </button>
               </div>
             </div>
           </div>

@@ -5,7 +5,7 @@ import Inputs from "../../components/inputs/inputs";
 import Cards from "../../components/cards/cards";
 import Modal from "../../components/modal/modal";
 
-function Home({ car, setCar, tem }) {
+function Home({ tem, car, totalItems, handleAddToCart }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCardId, setSelectedCardId] = useState(null);
   const [showModal, setShowModal] = useState(false);
@@ -18,12 +18,6 @@ function Home({ car, setCar, tem }) {
   const closeModal = () => {
     setShowModal(false);
     setSelectedCardId(null);
-  };
-
-  const handleAddToCart = (card) => {
-    if (!car.some((item) => item.id === card.id)) {
-      setCar([...car, card]);
-    }
   };
 
   useEffect(() => {
@@ -45,13 +39,12 @@ function Home({ car, setCar, tem }) {
         onClose={closeModal}
         selectedCardId={selectedCardId}
       />
-      <Header tem={tem} car={car} />
+      <Header tem={tem} car={car} totalItems={totalItems} />
       <section className="flex flex-col flex-wrap items-center mt-9 w-full h-full text-white">
         <Inputs searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <Cards
           searchTerm={searchTerm}
           handleAddToCart={handleAddToCart}
-          car={car}
           openModal={openModal}
         />
       </section>
