@@ -1,6 +1,7 @@
-import Header from "../../components/header/header";
-import CardsCar from "../../components/cardsCar/cardsCar";
-import Footer from "../../components/footer/footer";
+import Header from "../components/header";
+import CardsCar from "../components/cardsCar";
+import Footer from "../components/footer";
+import cardPhones from "../../card";
 
 function Car({ car, setCar, tem, totalItems, handleAddToCart }) {
   const handleRemoveCart = (id) => {
@@ -19,23 +20,23 @@ function Car({ car, setCar, tem, totalItems, handleAddToCart }) {
   };
 
   return (
-    <div className="flex flex-col min-h-screen">
+    <div className="flex flex-col min-h-screen bg-[#370202]">
       <Header tem={tem} totalItems={totalItems} />
 
       <div className="flex flex-col items-center justify-center  mt-10 mb-10 w-full h-full flex-1">
         {car.length === 0 ? (
-          <span className="text-gray-500 h-full">
+          <span className="text-white h-full">
             Não existe produto no seu carrinho.
           </span>
         ) : (
           <CardsCar
+            item={cardPhones}
             setCar={setCar}
             car={car}
             handleRemoveCart={handleRemoveCart}
             handleAddToCart={handleAddToCart}
           />
         )}
-        ;
       </div>
 
       <Footer />

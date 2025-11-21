@@ -1,8 +1,11 @@
 import { HashRouter, Routes, Route } from "react-router-dom";
-import Home from "./pages/home/home.jsx";
-import Car from "./pages/car/car.jsx";
+import Phones from "./pages/phones.jsx";
+import Car from "./pages/car.jsx";
+import Books from "./pages/books.jsx";
 import { useState, useEffect } from "react";
-
+import Home from "./pages/home.jsx";
+import cardBooks from "../cardsBooks.js";
+import cardPhones from "../card.js";
 function App() {
   const [car, setCar] = useState(() => {
     const savedCart = localStorage.getItem("cart");
@@ -39,6 +42,19 @@ function App() {
           path="/"
           element={
             <Home
+              item={[...cardBooks, ...cardPhones]}
+              car={car}
+              setCar={setCar}
+              tem={tem}
+              totalItems={totalItems}
+              handleAddToCart={handleAddToCart}
+            />
+          }
+        />
+        <Route
+          path="/phones"
+          element={
+            <Phones
               tem={tem}
               setCar={setCar}
               totalItems={totalItems}
@@ -50,6 +66,18 @@ function App() {
           path="/car"
           element={
             <Car
+              car={car}
+              setCar={setCar}
+              tem={tem}
+              totalItems={totalItems}
+              handleAddToCart={handleAddToCart}
+            />
+          }
+        />
+        <Route
+          path="/books"
+          element={
+            <Books
               car={car}
               setCar={setCar}
               tem={tem}

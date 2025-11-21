@@ -1,11 +1,12 @@
 import { useState, useEffect } from "react";
-import Header from "../../components/header/header";
-import Footer from "../../components/footer/footer";
-import Inputs from "../../components/inputs/inputs";
-import Cards from "../../components/cards/cards";
-import Modal from "../../components/modal/modal";
+import Header from "../components/header";
+import Footer from "../components/footer";
+import Inputs from "../components/inputs";
+import Cards from "../components/cards";
+import Modal from "../components/modal";
+import cardBooks from "../../cardsBooks";
 
-function Home({ tem, car, totalItems, handleAddToCart }) {
+function Books({ tem, car, totalItems, handleAddToCart }) {
   const [searchTerm, setSearchTerm] = useState("");
   const [selectedCardId, setSelectedCardId] = useState(null);
   const [showModal, setShowModal] = useState(false);
@@ -33,16 +34,18 @@ function Home({ tem, car, totalItems, handleAddToCart }) {
   }, [showModal]);
 
   return (
-    <div>
+    <div className="bg-[#370202] min-h-screen w-full flex-col flex">
       <Modal
+        item={cardBooks}
         show={showModal}
         onClose={closeModal}
         selectedCardId={selectedCardId}
       />
       <Header tem={tem} car={car} totalItems={totalItems} />
-      <section className="flex flex-col flex-wrap items-center mt-9 w-full h-full text-white">
+      <section className="flex flex-col flex-wrap items-center mt-9 text-white">
         <Inputs searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         <Cards
+          item={cardBooks}
           searchTerm={searchTerm}
           handleAddToCart={handleAddToCart}
           openModal={openModal}
@@ -53,4 +56,4 @@ function Home({ tem, car, totalItems, handleAddToCart }) {
   );
 }
 
-export default Home;
+export default Books;
